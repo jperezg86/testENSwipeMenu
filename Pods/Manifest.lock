@@ -1,10 +1,13 @@
 PODS:
   - ENSwiftSideMenu (0.1)
+  - SlideMenuControllerSwift (2.0.5)
 
 DEPENDENCIES:
   - ENSwiftSideMenu (~> 0.1)
+  - SlideMenuControllerSwift
 
 SPEC CHECKSUMS:
   ENSwiftSideMenu: 4e17a97d1d92c1a9c7267993a167e27e0a10422d
+  SlideMenuControllerSwift: 9dcae36265e14c4f42e729f212463beb60d2cf96
 
 COCOAPODS: 0.39.0

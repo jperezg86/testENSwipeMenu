@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020175311C6B95CD00708A97 /* RootNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020175301C6B95CD00708A97 /* RootNavigationControllerViewController.swift */; };
+		020175361C6B9F4000708A97 /* ENSwiftSideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020175351C6B9F4000708A97 /* ENSwiftSideMenu.framework */; };
+		0201753A1C6B9FB900708A97 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020175381C6B9FB900708A97 /* ENSideMenu.swift */; };
+		0201753B1C6B9FB900708A97 /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020175391C6B9FB900708A97 /* ENSideMenuNavigationController.swift */; };
+		0201753E1C6BA0AF00708A97 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201753D1C6BA0AF00708A97 /* MenuViewController.swift */; };
+		020175411C6BA0F200708A97 /* MenuHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0201753F1C6BA0F200708A97 /* MenuHeaderView.xib */; };
+		020175421C6BA0F200708A97 /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020175401C6BA0F200708A97 /* MenuHeaderView.swift */; };
+		020175621C6BA6CB00708A97 /* UtilFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020175611C6BA6CB00708A97 /* UtilFunctions.swift */; };
 		0214811B1C6ADBD400A1F055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214811A1C6ADBD400A1F055 /* AppDelegate.swift */; };
 		0214811D1C6ADBD400A1F055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214811C1C6ADBD400A1F055 /* ViewController.swift */; };
 		021481201C6ADBD400A1F055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0214811E1C6ADBD400A1F055 /* Main.storyboard */; };
@@ -16,6 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020175301C6B95CD00708A97 /* RootNavigationControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationControllerViewController.swift; sourceTree = "<group>"; };
+		020175321C6B99EB00708A97 /* ENSwiftSideMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ENSwiftSideMenu.framework; path = "Pods/../build/Debug-iphoneos/ENSwiftSideMenu.framework"; sourceTree = "<group>"; };
+		020175351C6B9F4000708A97 /* ENSwiftSideMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ENSwiftSideMenu.framework; path = "Pods/../build/Debug-iphoneos/ENSwiftSideMenu.framework"; sourceTree = "<group>"; };
+		020175381C6B9FB900708A97 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		020175391C6B9FB900708A97 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		0201753D1C6BA0AF00708A97 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0201753F1C6BA0F200708A97 /* MenuHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuHeaderView.xib; sourceTree = "<group>"; };
+		020175401C6BA0F200708A97 /* MenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
+		020175611C6BA6CB00708A97 /* UtilFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilFunctions.swift; sourceTree = "<group>"; };
 		021481171C6ADBD400A1F055 /* TestEnSwiftSideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestEnSwiftSideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0214811A1C6ADBD400A1F055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0214811C1C6ADBD400A1F055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020175361C6B9F4000708A97 /* ENSwiftSideMenu.framework in Frameworks */,
 				E453AD1A7F7950E660398CDC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		020175371C6B9FA100708A97 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				020175381C6B9FB900708A97 /* ENSideMenu.swift */,
+				020175391C6B9FB900708A97 /* ENSideMenuNavigationController.swift */,
+			);
+			name = library;
+			sourceTree = "<group>";
+		};
 		0214810E1C6ADBD400A1F055 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +88,18 @@
 		021481191C6ADBD400A1F055 /* TestEnSwiftSideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				020175371C6B9FA100708A97 /* library */,
 				0214811A1C6ADBD400A1F055 /* AppDelegate.swift */,
+				0201753F1C6BA0F200708A97 /* MenuHeaderView.xib */,
+				020175401C6BA0F200708A97 /* MenuHeaderView.swift */,
 				0214811C1C6ADBD400A1F055 /* ViewController.swift */,
+				0201753D1C6BA0AF00708A97 /* MenuViewController.swift */,
+				020175611C6BA6CB00708A97 /* UtilFunctions.swift */,
 				0214811E1C6ADBD400A1F055 /* Main.storyboard */,
 				021481211C6ADBD400A1F055 /* Assets.xcassets */,
 				021481231C6ADBD400A1F055 /* LaunchScreen.storyboard */,
 				021481261C6ADBD400A1F055 /* Info.plist */,
+				020175301C6B95CD00708A97 /* RootNavigationControllerViewController.swift */,
 			);
 			path = TestEnSwiftSideMenu;
 			sourceTree = "<group>";
@@ -83,6 +116,8 @@
 		F5498202EEA855A2AB530D41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				020175351C6B9F4000708A97 /* ENSwiftSideMenu.framework */,
+				020175321C6B99EB00708A97 /* ENSwiftSideMenu.framework */,
 				204ECE9E5B73DF437AF25506 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -149,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020175411C6BA0F200708A97 /* MenuHeaderView.xib in Resources */,
 				021481251C6ADBD400A1F055 /* LaunchScreen.storyboard in Resources */,
 				021481221C6ADBD400A1F055 /* Assets.xcassets in Resources */,
 				021481201C6ADBD400A1F055 /* Main.storyboard in Resources */,
@@ -210,7 +246,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0201753A1C6B9FB900708A97 /* ENSideMenu.swift in Sources */,
+				0201753E1C6BA0AF00708A97 /* MenuViewController.swift in Sources */,
 				0214811D1C6ADBD400A1F055 /* ViewController.swift in Sources */,
+				020175311C6B95CD00708A97 /* RootNavigationControllerViewController.swift in Sources */,
+				020175421C6BA0F200708A97 /* MenuHeaderView.swift in Sources */,
+				020175621C6BA6CB00708A97 /* UtilFunctions.swift in Sources */,
+				0201753B1C6B9FB900708A97 /* ENSideMenuNavigationController.swift in Sources */,
 				0214811B1C6ADBD400A1F055 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +365,10 @@
 			baseConfigurationReference = 03D6D2899B7B0F032F5491C6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = TestEnSwiftSideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tps.apps.testmaterial.TestEnSwiftSideMenu;
@@ -335,6 +381,10 @@
 			baseConfigurationReference = 2F3BD5B06A2D51272EA541E5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = TestEnSwiftSideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tps.apps.testmaterial.TestEnSwiftSideMenu;
