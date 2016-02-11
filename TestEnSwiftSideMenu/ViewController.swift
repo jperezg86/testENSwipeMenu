@@ -8,12 +8,17 @@
 
 import UIKit
 import SlideMenuControllerSwift
-class ViewController : SlideMenuController{
+class ViewController : UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
 //        self.sideMenuController()?.sideMenu?.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.setNavigationBarItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,12 +39,12 @@ class ViewController : SlideMenuController{
 //            controller.m
         }
         
-        
+
 
         
 
         super.awakeFromNib()
-    }
+    }*/
     
     
     @IBAction func openMenu(sender: AnyObject) {
@@ -50,4 +55,3 @@ class ViewController : SlideMenuController{
 
 
 }
-

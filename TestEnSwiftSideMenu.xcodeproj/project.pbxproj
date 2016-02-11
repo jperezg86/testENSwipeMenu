@@ -20,6 +20,7 @@
 		021481201C6ADBD400A1F055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0214811E1C6ADBD400A1F055 /* Main.storyboard */; };
 		021481221C6ADBD400A1F055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021481211C6ADBD400A1F055 /* Assets.xcassets */; };
 		021481251C6ADBD400A1F055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021481231C6ADBD400A1F055 /* LaunchScreen.storyboard */; };
+		02DCC40E1C6D51F100658840 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DCC40D1C6D51F100658840 /* UIViewController.swift */; };
 		E453AD1A7F7950E660398CDC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204ECE9E5B73DF437AF25506 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		021481211C6ADBD400A1F055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		021481241C6ADBD400A1F055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		021481261C6ADBD400A1F055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02DCC40D1C6D51F100658840 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		03D6D2899B7B0F032F5491C6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		204ECE9E5B73DF437AF25506 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3BD5B06A2D51272EA541E5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		021481191C6ADBD400A1F055 /* TestEnSwiftSideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				02DCC40C1C6D51AE00658840 /* Extension */,
 				020175371C6B9FA100708A97 /* library */,
 				0214811A1C6ADBD400A1F055 /* AppDelegate.swift */,
 				0201753F1C6BA0F200708A97 /* MenuHeaderView.xib */,
@@ -102,6 +105,14 @@
 				020175301C6B95CD00708A97 /* RootNavigationControllerViewController.swift */,
 			);
 			path = TestEnSwiftSideMenu;
+			sourceTree = "<group>";
+		};
+		02DCC40C1C6D51AE00658840 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				02DCC40D1C6D51F100658840 /* UIViewController.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 		42A4BC3FC333C613787B76BF /* Pods */ = {
@@ -248,6 +259,7 @@
 			files = (
 				0201753A1C6B9FB900708A97 /* ENSideMenu.swift in Sources */,
 				0201753E1C6BA0AF00708A97 /* MenuViewController.swift in Sources */,
+				02DCC40E1C6D51F100658840 /* UIViewController.swift in Sources */,
 				0214811D1C6ADBD400A1F055 /* ViewController.swift in Sources */,
 				020175311C6B95CD00708A97 /* RootNavigationControllerViewController.swift in Sources */,
 				020175421C6BA0F200708A97 /* MenuHeaderView.swift in Sources */,
