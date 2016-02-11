@@ -8,6 +8,9 @@ class MenuViewController: UITableViewController,HeaderTableViewProtocol {
     var configSection = [MenuItem]()
     var headerView : MenuHeaderView?
     
+    var mainViewController: UIViewController!
+    var swiftViewController: UIViewController!
+
     override func viewDidLoad() {
         seccion1 = [MenuItem(title: "Mi Perfil", imageName: "user"),
             MenuItem(title:"Recompensas", imageName: "recompensa"),

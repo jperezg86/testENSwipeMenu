@@ -21,13 +21,23 @@ class ViewController : SlideMenuController{
         // Dispose of any resources that can be recreated.
     }
     
-    override func awakeFromNib() {
+    /*override func awakeFromNib() {
+        let nvc: UINavigationController = UINavigationController()
+//        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
+        UINavigationBar.appearance().tintColor = UIColor.redColor()
         if let controller = self.storyboard?.instantiateViewControllerWithIdentifier("Main") {
             self.mainViewController = controller
+            nvc.viewControllers = [self.mainViewController!]
         }
         if let controller = self.storyboard?.instantiateViewControllerWithIdentifier("Left") {
             self.leftViewController = controller
+//            controller.m
         }
+        
+        
+
+        
+
         super.awakeFromNib()
     }
     
